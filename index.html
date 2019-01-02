@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheets/site.css">
+</head>
+<body>
+    <h1>To Do List App</h1>
+    <p>
+        Use me to keep the track of your daily tasks!
+    </p>
+    <div id="todoForm">
+
+    <label>Title</label>
+    <input placeholder="Title" type="text" id="title">
+    <span> </span><br>
+
+    <label>Description</label>
+    <input placeholder= "Description" type="text" id="description">
+    <span> </span><br>
+
+    <label>Date Added</label>
+    <input placeholder="Dated Added" type="text" id="dateAdded">
+    <span> </span><br>
+
+    <label>Category</label>
+    <input placeholder="Category" type="text" id="category">
+    <span> </span><br>
+</div>
+<div id="buttonWrapper">
+    <button id="addItem" type="button">Add new ToDo</button>
+    <button id="displayItems" type="button">
+        Display Items
+    </button>
+</div>   
+
+<div>
+    <h2>Item List</h2>
+    <ul id="itemList">
+        
+    </ul>
+</div>
+
+    <script src="scripts/code.js"></script>
+</body>
+</html>
